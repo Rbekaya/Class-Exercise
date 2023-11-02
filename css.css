@@ -1,0 +1,31 @@
+
+.div1 {grid-area: "main";}
+
+.div2 {grid-area: "section";}
+
+.div3 {grid-area: "contact";}
+
+.div4 {grid-area: "head1";}
+
+.div5 {grid-area: "head2";}
+
+.div6 {grid-area: "head3";}
+
+.div7 {grid-area: "copyright";}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    ' main main main  '
+    'section section contact '
+    'head1 head2 head3'
+    'copyright copyright copyright';
+  
+   
+}
+
+.grid-container  div {
+    background-color: rgb(164, 128, 79);
+    border: solid black 1px;
+    margin: 5px;
+}
